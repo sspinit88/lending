@@ -41,6 +41,74 @@
         </div>
     </div>
 </header>
+
+<div class="overlay"></div>
+<div class="hideForm">
+    <div class="formBlock">
+        <div class="formBlock__close">
+            <img src="img/x.png" alt="">
+        </div>
+        <div class="formBlock__title">
+            <p>
+                Заказать внедрение <span><img src="img/formlogo.png" alt=""></span>
+            </p>
+        </div><!--title-->
+        <form method="post" class="form">
+            <div class="inputsBlock">
+                <div class="inputItem">
+                    <input type="text" class="inputItem__inp" required>
+                    <label class="inputItem__label">Ваше имя</label>
+                </div>
+                <div class="inputItem">
+                    <input type="text" class="inputItem__inp" required>
+                    <label class="inputItem__label">Ваше отчество</label>
+                </div>
+                <div class="inputItem">
+                    <input type="text" class="inputItem__inp" required>
+                    <label class="inputItem__label">Название компании</label>
+                </div>
+                <div class="inputItem">
+                    <input type="text" class="inputItem__inp" required>
+                    <label class="inputItem__label">E-mail</label>
+                </div>
+                <div class="inputItem">
+                    <input type="text" class="inputItem__inp" required>
+                    <label class="inputItem__label">Комментарий</label>
+                </div>
+            </div>
+            <div class="formBtnBlock">
+                <div class="formBtnItem">
+                    <a href="#" class="formSaveBtn">
+                        Скачать анкету
+                    </a>
+                    <div class="formUpload">
+                        <div class="formUpload__upload">
+                            <label>
+                                <input type="file" name="file">
+                                <span>ПРИКРЕПИТЬ АНКЕТУ</span>
+                            </label>
+                        </div>
+                        <input type="text"  class="formUpload__filename" disabled value="Файл не выбран">
+                    </div>
+                </div>
+                <div class="formCh">
+                    <label class="formCh__label">
+                        <input class="checkbox" type="checkbox" name="checkbox-test" required>
+                        <span class="checkbox-custom"></span>
+                    </label>
+                    <p class="formCh__text">
+                        Я согласен на обработку
+                        персональных данных
+                    </p>
+                </div>
+            </div>
+            <button type="submit" class="form__sub">
+                ОТПРАВИТЬ
+            </button>
+        </form>
+    </div><!--formBlock-->
+</div>
+
 <div class="topSection">
     <div class="topParallax">
         <ul id="scene">
@@ -133,7 +201,7 @@
                     </p>
                 </div>
             </div>
-            <div class="topSectionBlock__btn">Заказать</div>
+            <div class="topSectionBlock__btn  buyNow">Заказать</div>
         </div><!--topSectionBlock-->
     </div><!--wrap-->
 </div>
@@ -167,10 +235,10 @@
             <p class="priceBlock__title">Цены на <span><img src="img/bitrix241170.png" alt=""></span><img src="img/clTarif.png" alt=""></p>
             <div class="price">
                 <div class="price__leftBtn">
-                    <img src="img/arrGR.png" alt="">
+                    <img src="img/arr.png" alt="">
                 </div>
                 <div class="price__rightBtn">
-                    <img src="img/arrGR.png" alt="">
+                    <img src="img/arr.png" alt="">
                 </div>
                 <div class="priceItem">
                     <p class="priceItem__title">
@@ -1932,7 +2000,6 @@
         </div><!--formBlock-->
     </div><!--wrap-->
 </div>
-
 <footer class="footer">
     <div class="wrap">
         <div class="footerBlock">
